@@ -1,0 +1,77 @@
+body {
+  background-color: lightblue;
+}
+* {
+  box-sizing: border-box;
+}
+h3 {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+
+.box {
+  background-color: white;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.fields {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/* combinators */
+.fields > label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 10px color black;
+  margin: 20px;
+}
+
+.btn.Print {
+  margin-left: 150px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin: auto;
+  width: 90px;
+  height: 75px;
+}
+.image-container > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media print {
+  body {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formInputs {
+    display: none;
+  }
+  .card {
+    visibility: visible;
+  }
+  .btn.Print {
+    display: none;
+  }
+}
