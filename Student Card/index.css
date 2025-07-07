@@ -18,7 +18,7 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .title {
-  background-color: black;
+  background-color: rgb(209, 17, 135);
   color: white;
   padding: 10px;
   text-align: center;
@@ -36,7 +36,7 @@ h3 {
 }
 .btn {
   padding: 8px 16px;
-  border-radius: 10px color black;
+  border-radius: 10px color rgb(224, 21, 133);
   margin: 20px;
 }
 
