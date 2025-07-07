@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(6, 10, 116);
+  background-color: rgb(17, 20, 111);
 }
 * {
   box-sizing: border-box;
@@ -15,10 +15,10 @@ h3 {
   background-color: white;
   width: 400px;
   margin-right: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.749), 0 6px 20px 0 rgba(0, 0, 0, 0.703);
 }
 .title {
-  background-color: rgb(209, 17, 135);
+  background-color: rgb(171, 18, 112);
   color: white;
   padding: 10px;
   text-align: center;
