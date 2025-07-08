@@ -13,9 +13,9 @@ h3 {
 
 .box {
   background-color: white;
-  width: 400px;
+  width: 450px;
   margin-right: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.749), 0 6px 20px 0 rgba(0, 0, 0, 0.703);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.909), 0 6px 20px 0 rgba(0, 0, 0, 0.89);
 }
 .title {
   background-color: rgb(171, 18, 112);
