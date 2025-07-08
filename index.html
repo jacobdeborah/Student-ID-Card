@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debbie's Student Card Project</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <!-- first Students details -->
+  <div class="container">
+    <div class="box formInputs">
+      <h3 class="title">Students details</h3>
+      <form>
+        <div class="fields">
+          <label for="School Name">School Name:</label>
+          <input type="text" id="School Name">
+        </div>
+
+        <div class="fields">
+          <label for="Student Name">Student Name:</label>
+          <input type="text" id="Student Name">
+        </div>
+        <div class="fields">
+          <label for="Date of Birth">Date of Birth:</label>
+          <input type="text" id="Date of Birth">
+        </div>
+        <div class="fields">
+          <label for="Coursetitle">Course Title:</label>
+          <input type="text" id="Section">
+        </div>
+        <div class="fields">
+          <label for="Startdate">Start Date:</label>
+          <input type="number" id="Rollnum">
+        </div>
+        <div class="fields">
+          <button class="btn" type="button">Submit Form</button>
+          <button class="btn" type="button">Clear All</button>
+          <!-- second approach for clearall the data from the table is use
+                type = reset; -->
+        </div>
+      </form>
+    </div>
+    <!-- second Students card details -->
+    <div class="box card">
+      <h3 class="title" id="School Name val">EPITA</h3>
+      <div class="image-container"><img src="debbie.jpg" alt="debbie's photo" />
+      </div>
+      <div class="fields">
+        <label>Student Name:</label>
+        <label id="StudentNameval">Deborah</label>
+      </div>
+      <div class="fields">
+        <label>Date of Birth:</label>
+        <label id="Date of Birth val">12/06/2002</label>
+      </div>
+      <div class="fields">
+        <label>Course Title:</label>
+        <label id="Section val">MSc. Data Science & Analytics</label>
+      </div>
+      <div class="fields">
+        <label>Start Date:</label>
+        <label id="Roll Number val">September 2025</label>
+      </div>
+      <button class="btn Print" type="button">Print ID card</button>
+    </div>
+  </div>
+  <div style="margin-top: 20px; font-size: 14px; color: #aaa7a7; font-style: italic; text-align: center;">
+  <p>
+    This student ID card was created by the applicant as a personal project for academic and visa application purposes. It is not an official EPITA-issued document.
+  </p>
+</div>
+</body>
+
+</html>
